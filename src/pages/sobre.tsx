@@ -1,16 +1,16 @@
 import { Footer } from "@/components/layouts/Footer";
 import { Header } from "@/components/layouts/Header";
-import { ContatoPage } from "@/views/contato";
+import { SobrePage } from "@/views/sobre";
 import { NextPage } from "next";
 
-const Contato: NextPage = () => {
+const Sobre: NextPage = () => {
   return (
-    <div className="bg-white">
+    <>
       <Header />
-      <ContatoPage />
+      <SobrePage />
       <Footer />
-    </div>
+    </>
   );
 };
 
-export default Contato;
+export default Sobre;
