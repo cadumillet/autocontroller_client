@@ -4,7 +4,7 @@ import { Header } from "./header";
 export const SobrePage = () => {
   return (
     <main>
-      <Header />
+      {/* <Header /> */}
       <Features />
     </main>
   );

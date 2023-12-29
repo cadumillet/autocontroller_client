@@ -6,21 +6,21 @@ import {
 
 const features = [
   {
-    name: "Push to deploy.",
+    name: "Evite gastos com sinistros e multas.",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "Utilize as gravações das câmeras para investigar incidentes e violações, proporcionando uma gestão eficaz de eventos adversos.",
     icon: CloudArrowUpIcon,
   },
   {
-    name: "SSL certificates.",
+    name: "Avalie o comportamento de direção de sua frota.",
     description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+      "Examine minuciosamente a maneira como os veículos estão sendo conduzidos para fornecer orientações aprimoradas aos condutores, visando a melhoria contínua.",
     icon: LockClosedIcon,
   },
   {
-    name: "Database backups.",
+    name: "Controle seu custo com combustível.",
     description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+      "Utilize soluções de roteirização, cercas eletrônicas e controle de direção.",
     icon: ServerIcon,
   },
 ];
@@ -33,15 +33,14 @@ export const Features = () => {
           <div className="lg:ml-auto lg:pl-4 lg:pt-4">
             <div className="lg:max-w-lg">
               <h2 className="text-base font-semibold leading-7 text-indigo-600">
-                Deploy faster
+                Auto Controller Rastreamento e Tecnologia
               </h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                A better workflow
+                Eficiência na gestão de sua frota
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                Personalizamos nossos produtos e serviços de acordo com a
+                necessidade de cada cliente.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
@@ -61,7 +60,7 @@ export const Features = () => {
           </div>
           <div className="flex items-start justify-end lg:order-first">
             <img
-              src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+              src="https://img.freepik.com/fotos-gratis/jovem-mecanico-de-carro-preto-usando-computador-com-seu-gerente-na-oficina-mecanica_637285-4243.jpg?w=1060&t=st=1703856686~exp=1703857286~hmac=abbb3e81fe87a130e13b6e19679eb445d66eae8be4469103896e4d3ffa2c8a5c"
               alt="Product screenshot"
               className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
               width={2432}

@@ -1,4 +1,4 @@
-import { InboxIcon, TrashIcon, UsersIcon } from "@heroicons/react/24/outline";
+import { RocketIcon, SecurityIcon, TechnologyIcon } from "@/assets/icons";
 
 const features = [
   {
@@ -6,21 +6,21 @@ const features = [
     description:
       "Com soluções avançadas, oferecemos controle efetivo da sua frota, proporcionando suporte à logística e gerenciamento de riscos.",
     href: "#",
-    icon: InboxIcon,
+    icon: RocketIcon,
   },
   {
     name: "Tecnologia",
     description:
       "Utilizando as melhores tecnologias do mercado, asseguramos tranquilidade e segurança no monitoramento de sua frota, com comunicação de dados confiáveis de localização.",
     href: "#",
-    icon: UsersIcon,
+    icon: TechnologyIcon,
   },
   {
     name: "Segurança",
     description:
       "Oferecemos produtos e serviços que proporcionam a segurança de seus colaboradores e patrimônio.",
     href: "#",
-    icon: TrashIcon,
+    icon: SecurityIcon,
   },
 ];
 
